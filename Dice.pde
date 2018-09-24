@@ -1,29 +1,32 @@
 void setup()
 {
-	noLoop();
+  noLoop();
 }
 void draw()
 {
-	//your code here
+  //code here
 }
 void mousePressed()
 {
-	redraw();
+  redraw();
 }
 class Die //models one single dice cube
 {
-	//variable declarations here
-	
-	Die(int x, int y) //constructor
-	{
-		//variable initializations here
-	}
-	void roll()
-	{
-		//your code here
-	}
-	void show()
-	{
-		//your code here
-	}
+  //variable declarations here
+
+  int myX,myY,mySize;
+  Die(int x, int y) //constructor
+  {
+    myX = x;
+    myY=y;
+    mySize=0;
+  }
+  void roll()
+  {
+    //your code here
+  }
+  void show()
+  {
+    //your code here
+  }
 }
