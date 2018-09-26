@@ -24,16 +24,19 @@ void mousePressed()
 }
 class Die 
 {
-  int myX,myY,myDieNumber;
+  int myX,myY,myDieNumber,e;
   Die(int x, int y) //constructor
   {
     myX=x;
     myY=y;
+    e=80;
     myDieNumber=(int)(Math.random()*6)+1;
   }
   void roll()
   {
-    //your code here
+    if(myDieNumber==1)
+    {
+      //ellipse(
   }
   void show()
   {
